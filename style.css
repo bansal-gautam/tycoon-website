@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    padding: 5px 8px;
+    font-size: 1rem;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.active {
+    color: #0861fd !important;
+}
+
+.banner {
+    width: 100%;
+    max-width: 100vw;
+}
+
+figure {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+.caption {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-left: 13vw;
+    color: black;
+    letter-spacing: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .caption {
+        width: 70%;
+        padding-left: 7vw;
+    }
+
+    .caption-head {
+        font-size: 150% !important;
+    }
+
+    .caption-des {
+        font-size: 100% !important;
+    }
+
+    .org-btn {
+        text-align: center;
+    }
+}
+
+.caption-head {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.caption-des {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.partner-container {
+    background-color: #0861fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 10vw;
+    color: black;
+}
+
+.partner-button .btn {
+    width: 150px;
+    padding: 10px 25px;
+    border-radius: 0;
+    border: 1px solid gray;
+}
+
+.organization {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10vh 0;
+}
+
+.organization h1 {
+    color: black;
+}
+
+.org-about {
+    max-width: 55%;
+}
+
+.org-card {
+    text-align: left;
+    padding-top: 6vh;
+}
+
+.org-image {
+    width: 100%;
+    max-width: 100%;
+}
+
+.org-btn {
+    margin: 5vh 0;
+}
+
+.org-btn .btn {
+    width: 150px;
+    border-radius: 0;
+    background-color: #4d8bff;
+    padding: 10px 0;
+}
+
+.team-container {
+    padding: 0;
+    background-color: rgb(202, 202, 202);
+}
+
+.team-img {
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+}
+
+@media screen and (max-width: 992px) {
+    .team-img {
+        padding-right: 0px !important;
+    }
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    background-color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
